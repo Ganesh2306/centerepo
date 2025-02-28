@@ -4,7 +4,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     // Get the input value
     const name = document.getElementById('name').value;
 
-    // Display greeting if name is provided
+     // Display greeting if name is provided
     if (name.trim() !== '') {
         document.getElementById('userName').textContent = name;
         document.getElementById('greeting').style.display = 'block';
